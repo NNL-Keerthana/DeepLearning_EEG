@@ -9,11 +9,11 @@ using advanced deep learning techniques.
 3. **ATCNet** because it is designed to handle temporal dependencies in EEG data.
 
 
-| Model      | Accuracy | Precision  | Recall   | F1-Score |
+| *Model*    |*Accuracy*| *Precision*| *Recall* |*F1-Score*|
 | -----------|:--------:|:----------:|:--------:| --------:|
 | EEGNet     |  0.8000  | 0.7000     | 1.0000   |    0.8235|
 | TSCeption  | 0.8000   |   0.8100   |  0.8000  |   0.8000 |
 | ATCNet     |   0.4667 | 0.4667     | 1.0000   | 0.6364   |
 
 While fine-tuning the hyperparameters and experimenting with the architecture, preference was given to Higher Recall.
-Because we are dealing with EEG signals.In cases like medical diagnostics missing a positive case is critical.
+Because we are dealing with EEG signals. In cases like medical diagnostics missing a positive case is critical.

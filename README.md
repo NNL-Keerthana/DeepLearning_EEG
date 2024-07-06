@@ -8,7 +8,12 @@ using advanced deep learning techniques.
 2. **TSCeption** as it can handle the temporal and spectral characteristics of EEG signals
 3. **ATCNet** because it is designed to handle temporal dependencies in EEG data.
 
+### PSD Inference:
+The rest state shows a higher power across all frequencies than the task state.
+These results seem to support notions I read that brain activity is better during rest/sleep. Be it retention, dreams, healing etc.
+[more](https://colab.research.google.com/github/NNL-Keerthana/DeepLearning_EEG/blob/main/PSD_featureExtraction.ipynb#scrollTo=UDsVlFjGCTi9&line=5&uniqifier=1)
 
+### Classification Results:
 | *Model*    |*Accuracy*| *Precision*| *Recall* |*F1-Score*|
 | -----------|:--------:|:----------:|:--------:| --------:|
 | EEGNet     |  0.8000  | 0.7000     | 1.0000   |    0.8235|
